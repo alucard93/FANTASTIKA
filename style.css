@@ -51,25 +51,75 @@ header > nav {
   gap: 26px;
   align-items: center;
   padding-top: 109px;
-  background-image: url(assets/welcome.svg);
+  /* background-image: url(assets/welcome.svg); */
   background-position: center bottom;
   background-repeat: no-repeat;
   background-size: cover;
   height: 699px;
+  background: url('assets/welcome.svg') no-repeat center bottom / cover;
 }
 
-.content_welcome > p {
+.content_welcome > h1 {
   display: flex;
 
-  max-width: 415px;
+  max-width: 525px;
   text-align: center;
-  font: normal normal bold 51px/59px Roboto Serif 20pt;
-  font-weight: 700;
+  font-weight: bold;
   font-size: 51px;
-  letter-spacing: 0px;
+  line-height: 59px;
+  font-family: 'Roboto Serif';
   color: #ffffff;
 }
 
-/* .content_welcome  > figure {
-  background-color: rebeccapurple;
+.container_bath_and_groom {
+  height: 768px;
+  padding-left: 62px;
+  display: flex;
+  align-items: center;
+  background: url('assets/container_bath_and_groom.svg') no-repeat left / cover;
+}
+
+/* .content_bath_and_groom {
+
 } */
+
+.content_bath_and_groom > h2 {
+  text-align: left;
+  font-weight: bold;
+  font-size: 49px;
+  line-height: 60px;
+  font-family: 'Roboto Serif', serif;
+  color: #3a342f;
+}
+
+.content_bath_and_groom > p {
+  display: flex;
+  width: 100%;
+  max-width: 416px;
+  text-align: left;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  font-size: 27px;
+  line-height: 42px;
+  font-family: 'Roboto';
+}
+
+.content_bath_and_groom > button {
+  all: unset;
+  background: #3a342f 0% 0% no-repeat padding-box;
+  border-radius: 44px;
+  width: 100%;
+  max-width: 248px;
+  height: 81px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 33px;
+
+  font-weight: bold;
+  font-size: 27px;
+  line-height: 35px;
+  font-family: 'Roboto';
+  color: #F4F2F3;
+}
