@@ -56,7 +56,7 @@ main {
   gap: 26px;
   align-items: center;
   padding-top: 109px;
-  
+
   height: 699px;
   background: url('assets/welcome.svg') no-repeat center bottom / cover;
 }
@@ -78,12 +78,10 @@ main {
   padding-left: 62px;
   display: flex;
   align-items: center;
-  background: #F4F2F3 url('assets/container_bath_and_groom.svg') no-repeat left / contain;
+  background: #f4f2f3 url('assets/container_bath_and_groom.svg') no-repeat left /
+    contain;
+  background-position: bottom;
 }
-
-/* .content_bath_and_groom {
-
-} */
 
 .content_bath_and_groom > h2 {
   text-align: left;
@@ -121,6 +119,53 @@ main {
   font-size: 27px;
   line-height: 35px;
   font-family: 'Roboto';
-  color: #F4F2F3;
+  color: #f4f2f3;
   cursor: pointer;
+}
+
+.container_dog_black {
+  width: 100%;
+  height: 768px;
+  background: url('assets/dog_demon.svg') no-repeat center left / cover;
+  background-position: unset;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.content_dog_black {
+  width: 100%;
+  max-width: 424px;
+  display: flex;
+  flex-direction: column;
+}
+
+.content_dog_black > h2 {
+  font-weight: bold;
+  font-size: 49px;
+  line-height: 60px;
+  font-family: 'Roboto Serif', serif;
+  color: #ffffff;
+}
+
+.content_dog_black > p {
+  font: normal normal normal 27px/42px Roboto;
+  letter-spacing: 0px;
+  color: #ffffff;
+}
+
+.content_dog_black > button {
+  all: unset;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  height: 81px;
+  border-radius: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font: normal normal bold 27px/35px Roboto;
+  letter-spacing: 0px;
+  color: #000000;
+  max-width: 248px;
+  margin-top: 45px;
 }
