@@ -76,7 +76,7 @@ header > nav {
   padding-left: 62px;
   display: flex;
   align-items: center;
-  background: url('assets/container_bath_and_groom.svg') no-repeat left / cover;
+  background: #F4F2F3 url('assets/container_bath_and_groom.svg') no-repeat left / contain;
 }
 
 /* .content_bath_and_groom {
@@ -97,9 +97,7 @@ header > nav {
   width: 100%;
   max-width: 416px;
   text-align: left;
-  font-style: normal;
-  font-variant: normal;
-  font-weight: normal;
+
   font-size: 27px;
   line-height: 42px;
   font-family: 'Roboto';
