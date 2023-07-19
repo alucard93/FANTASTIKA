@@ -1,0 +1,47 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: black;
+  width: 100%;
+  height: 69px;
+  display: flex;
+  align-items: center;
+}
+
+header > nav {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1080px;
+  
+  margin: 0 auto;
+  padding: 0 62px;
+}
+
+.content_logo {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 132px;
+
+  font: normal normal bold 15px/18px Roboto Serif 20pt;
+  letter-spacing: 0.32px;
+  color: #ffffff;
+}
+
+.content_logo > img {
+  display: block;
+  max-width: 35px;
+}
+
+
+.content_socials {
+  display: flex;
+  gap: 20px;
+}
