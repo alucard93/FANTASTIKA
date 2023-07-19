@@ -17,7 +17,7 @@ header > nav {
   justify-content: space-between;
   width: 100%;
   max-width: 1080px;
-  
+
   margin: 0 auto;
   padding: 0 62px;
 }
@@ -40,8 +40,36 @@ header > nav {
   max-width: 35px;
 }
 
-
 .content_socials {
   display: flex;
   gap: 20px;
 }
+
+.content_welcome {
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
+  align-items: center;
+  padding-top: 109px;
+  background-image: url(assets/welcome.svg);
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 699px;
+}
+
+.content_welcome > p {
+  display: flex;
+
+  max-width: 415px;
+  text-align: center;
+  font: normal normal bold 51px/59px Roboto Serif 20pt;
+  font-weight: 700;
+  font-size: 51px;
+  letter-spacing: 0px;
+  color: #ffffff;
+}
+
+/* .content_welcome  > figure {
+  background-color: rebeccapurple;
+} */
