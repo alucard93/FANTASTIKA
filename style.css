@@ -169,3 +169,26 @@ main {
   max-width: 248px;
   margin-top: 45px;
 }
+
+.container_support {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  height: 112px;
+}
+
+.content_support {
+  display: flex;
+  justify-content: space-between;
+  height: 28px;
+  gap: 87px;
+  font-style: italic;
+  font-variant: normal;
+  font-weight: normal;
+  font-size: 24px;
+
+  font-family: 'Roboto Serif', serif;
+  font-size: 20pt;
+  color: #fd6a9a;
+}
