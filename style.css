@@ -46,6 +46,43 @@ header > nav {
   gap: 20px;
 }
 
+@media (max-width: 751px) {
+  header {
+    height: 166px;
+  }
+
+  .content_logo {
+    height: 94px;
+    max-width: 336px;
+  }
+
+  .content_logo > img {
+    display: block;
+    max-width: 94px;
+  }
+
+  .content_logo > h3 {
+    font-style: normal;
+    font-variant: normal;
+    font-weight: bold;
+    font-size: 42px;
+    line-height: 49px;
+    font-family: 'Roboto Serif', serif;
+  }
+
+  .content_socials {
+    align-items: center;
+  }
+  
+  .content_socials > img:not(:last-child) {
+    display: none;
+  }
+
+  .content_socials > img {
+    height: 72px;
+  }
+}
+
 main {
   padding-top: 69px;
 }
