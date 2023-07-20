@@ -292,7 +292,7 @@ main {
   display: flex;
   justify-content: space-between;
   height: 28px;
-  /* gap: 87px; */
+  gap: 87px;
 }
 
 .container_support_images > img {
