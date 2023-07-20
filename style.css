@@ -46,6 +46,33 @@ header > nav {
   gap: 20px;
 }
 
+main {
+  padding-top: 69px;
+}
+
+.content_welcome {
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
+  align-items: center;
+  padding-top: 109px;
+
+  height: 699px;
+  background: url('assets/welcome.svg') no-repeat center bottom / cover;
+}
+
+.content_welcome > h1 {
+  display: flex;
+
+  max-width: 525px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 51px;
+  line-height: 59px;
+  font-family: 'Roboto Serif';
+  color: #ffffff;
+}
+
 @media (max-width: 751px) {
   header {
     height: 166px;
@@ -81,33 +108,22 @@ header > nav {
   .content_socials > img {
     height: 72px;
   }
-}
 
-main {
-  padding-top: 69px;
-}
+  main {
+    padding-top: 166px;
+  }
 
-.content_welcome {
-  display: flex;
-  flex-direction: column;
-  gap: 26px;
-  align-items: center;
-  padding-top: 109px;
+  .content_welcome {
+    height: 1168px;
+    padding-top: 96px;
+    gap: 70px;
+  }
 
-  height: 699px;
-  background: url('assets/welcome.svg') no-repeat center bottom / cover;
-}
-
-.content_welcome > h1 {
-  display: flex;
-
-  max-width: 525px;
-  text-align: center;
-  font-weight: bold;
-  font-size: 51px;
-  line-height: 59px;
-  font-family: 'Roboto Serif';
-  color: #ffffff;
+  .content_welcome > h1 {
+    font-size: 69px;
+    line-height: 81px;
+    max-width: none;
+  }
 }
 
 .container_bath_and_groom {
