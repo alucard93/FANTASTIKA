@@ -73,59 +73,6 @@ main {
   color: #ffffff;
 }
 
-@media (max-width: 751px) {
-  header {
-    height: 166px;
-  }
-
-  .content_logo {
-    height: 94px;
-    max-width: 336px;
-  }
-
-  .content_logo > img {
-    display: block;
-    max-width: 94px;
-  }
-
-  .content_logo > h3 {
-    font-style: normal;
-    font-variant: normal;
-    font-weight: bold;
-    font-size: 42px;
-    line-height: 49px;
-    font-family: 'Roboto Serif', serif;
-  }
-
-  .content_socials {
-    align-items: center;
-  }
-  
-  .content_socials > img:not(:last-child) {
-    display: none;
-  }
-
-  .content_socials > img {
-    height: 72px;
-  }
-
-  main {
-    padding-top: 166px;
-  }
-
-  .content_welcome {
-    height: 1168px;
-    padding-top: 96px;
-    gap: 70px;
-  }
-
-  .content_welcome > h1 {
-    font-size: 69px;
-    line-height: 81px;
-    max-width: none;
-  }
-}
-
 .container_bath_and_groom {
   height: 768px;
   padding-left: 62px;
@@ -184,6 +131,76 @@ main {
   display: flex;
   justify-content: end;
   align-items: center;
+}
+
+@media (max-width: 751px) {
+  header {
+    height: 166px;
+  }
+
+  .content_logo {
+    height: 94px;
+    max-width: 336px;
+  }
+
+  .content_logo > img {
+    display: block;
+    max-width: 94px;
+  }
+
+  .content_logo > h3 {
+    font-style: normal;
+    font-variant: normal;
+    font-weight: bold;
+    font-size: 42px;
+    line-height: 49px;
+    font-family: 'Roboto Serif', serif;
+  }
+
+  .content_socials {
+    align-items: center;
+  }
+
+  .content_socials > img:not(:last-child) {
+    display: none;
+  }
+
+  .content_socials > img {
+    height: 72px;
+  }
+
+  main {
+    padding-top: 166px;
+  }
+
+  .content_welcome {
+    height: 1168px;
+    padding-top: 96px;
+    gap: 70px;
+  }
+
+  .content_welcome > h1 {
+    font-size: 69px;
+    line-height: 81px;
+    max-width: none;
+  }
+
+  .container_bath_and_groom {
+    height: 1334px;
+    padding-left: 45px;
+    padding-top: 180px;
+    align-items: flex-start;
+    background: #f4f2f3 url('assets/lion_mobile.svg') no-repeat left / cover;
+  }
+
+  .container_dog_black {
+    height: 1334px;
+    padding-top: 142px;
+    padding-left: 45px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    background: url('assets/dog_black_mobile.svg') no-repeat center left / cover;
+  }
 }
 
 .content_dog_black {
